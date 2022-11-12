@@ -21,6 +21,7 @@ public class WindowHandle {
         driver.manage().window().maximize();
         driver.get(baseURL);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //Nirav has made an chnages.
     }
 
     @Test
